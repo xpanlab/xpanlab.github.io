@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "join.html#build-with-us",
+    "href": "join.html#build-with-us",
+    "title": "Join Us",
+    "section": "Build with us",
+    "text": "Build with us\nWe welcome expressions of interest from people excited about computational pathology, cancer biology, artificial intelligence, and spatial omics.\nOur work sits at the intersection of methods and biology. Experience in image analysis, machine learning, bioinformatics, or cancer research is relevant, along with curiosity and a willingness to learn across disciplines."
+  },
+  {
+    "objectID": "join.html#how-to-express-interest",
+    "href": "join.html#how-to-express-interest",
+    "title": "Join Us",
+    "section": "How to express interest",
+    "text": "How to express interest\nPlease prepare a brief description of your research interests, a CV, and links to relevant publications or projects. Explain how your interests connect with the lab’s research.\nFor current contact information, visit Xiaoxi Pan’s personal website.\n\nRecruitment details to be confirmed: specific openings, eligibility and application routes, start dates, and the lab’s University of Utah contact email. This page invites expressions of interest and does not yet list confirmed vacancies."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer. The themes below describe our research interests; individual projects and study figures will be added as they become available."
+  },
+  {
+    "objectID": "research.html#computational-pathology",
+    "href": "research.html#computational-pathology",
+    "title": "Research",
+    "section": "Computational pathology",
+    "text": "Computational pathology\nHow can routine tissue images reveal meaningful differences in cancer? We develop interpretable image analysis methods to characterize cells, tissue architecture, and tumor heterogeneity, with an emphasis on biological understanding and clinical relevance.\n\n\n\nConceptual workflow from tissue images through cell and tissue analysis to biological interpretation."
+  },
+  {
+    "objectID": "research.html#spatial-organization-of-the-tumor-microenvironment",
+    "href": "research.html#spatial-organization-of-the-tumor-microenvironment",
+    "title": "Research",
+    "section": "Spatial organization of the tumor microenvironment",
+    "text": "Spatial organization of the tumor microenvironment\nCancer develops within a complex community of tumor, immune, and stromal cells. We investigate how their arrangement and interactions relate to disease progression and treatment response.\n\n\n\nConceptual diagram of tumor, immune, and stromal cells in a tissue neighborhood."
+  },
+  {
+    "objectID": "research.html#integrating-pathology-and-spatial-omics",
+    "href": "research.html#integrating-pathology-and-spatial-omics",
+    "title": "Research",
+    "section": "Integrating pathology and spatial omics",
+    "text": "Integrating pathology and spatial omics\nWe bring tissue images together with spatial molecular measurements to study how cellular states map onto tissue structure. These complementary views can help explain microenvironmental changes and generate hypotheses for further investigation.\n\n\n\nConceptual integration of tissue morphology and spatial molecular measurements.\n\n\nAll figures are conceptual illustrations, not experimental results."
+  },
+  {
+    "objectID": "index.html#about",
+    "href": "index.html#about",
+    "title": "Pan Lab",
+    "section": "About",
+    "text": "About\nWe study how the organization of cells within tissue shapes cancer biology. Our research brings together computational pathology, interpretable AI, and spatial omics to connect microscopic tissue patterns with biological mechanisms and clinically meaningful questions.\nLed by Xiaoxi Pan, the lab builds on his work in medical image analysis and cancer research at the Institute of Cancer Research and MD Anderson Cancer Center. He received his Ph.D. in Optics, Photonics and Image Processing at École Centrale Marseille.\nExplore our research · Join the lab"
+  },
+  {
+    "objectID": "index.html#news",
+    "href": "index.html#news",
+    "title": "Pan Lab",
+    "section": "News",
+    "text": "News\n\nApril 2026 — Xiaoxi gave an invited talk at the Oncological Data Science Symposium at Huntsman Cancer Institute.\nApril 2026 — Xiaoxi gave an invited talk at the BCB Seminar Series.\nDecember 2025 — A co-authored paper was accepted by Cell Reports Medicine.\n\n\nMore lab news will be added here as the team grows."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Selected published work by Xiaoxi Pan and collaborators. See Google Scholar for the wider publication record.\n\n  The artificial intelligence-based model ANORAK improves histopathological grading of lung adenocarcinoma  \n\nXiaoxi Pan, Khalid AbdulJabbar, Jose Coelho-Lima, Anca-Ioana Grapa, Hanyun Zhang, Ho Kwan Alvin Cheung, Juvenal Baena, Takahiro Karasaki, Claire Wilson, Marco Sereno, Selvaraju Veeriah, Sarah Aitken, Allan Hackshaw, Andrew Nicholson, Mariam Jamal-Hanjani, Charles Swanton, Yinyin Yuan, John Le Quesne, David Moore. Nature Cancer, 2024.\n\n\n\n  Gompertz growth with a shared carrying capacity optimally simulates primary and metastatic tumor growth dynamics  \n\nPirmin Schlicke, Preethi Korangath,Xiaoxi Pan, Caner Ercan, Kathleen Gabrielson, Lyndsey Werhane, Yinyin Yuan, Sebastien Benzekry, Robert Ivkov, and Heiko Enderling. British Journal of Cancer, 2026.\n\n\n\n  Tumor microenvironment transcriptional activity enables robust stratification of chemotherapy response in triple-negative breast cancer  \n\nYaoyi Dai, Xiaoxi Pan, Shuai Guo, Shuangxi Ji, Shaolong Cao, Matthew Montierth, Yujie Jiang, Leming Shi, Shabnam Shalapour, Gloria V Echeverria, Lucy Yates, Johan Staaf, Jeffrey T Chang, Bora Lim, Yinyin Yuan, Wenyi Wang. Cell Reports Medicine, 2026.\n\n\n\n  Multi-view separable pyramid network for AD prediction at MCI Stage by 18F-FDG brain PET imaging  \n\nXiaoxi Pan, Trong-Le Phan, Mouloud Adel,Caroline Fossati, Thierry Gaidon, Julien Wojak, Eric Guedj. IEEE Transactions on Medical Imaging, 2021.\n\n\n\nThis selected list follows the personal website’s published citations. Add the lab’s complete bibliography and any newly accepted work when available."
+  }
+]

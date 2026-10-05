@@ -1,0 +1,49 @@
+---
+title: "Publications"
+---
+
+Selected published work by Xiaoxi Pan and collaborators. See [Google Scholar](https://scholar.google.com/citations?user=HlK3iTkAAAAJ) for the wider publication record.
+
+::: {.publication}
+<strong>
+              <a href="https://www.nature.com/articles/s43018-023-00694-w" target="_blank" rel="noopener">
+              The artificial intelligence-based model ANORAK improves histopathological grading of lung adenocarcinoma
+              </a>
+            </strong>
+
+<p class="authors"><strong>Xiaoxi Pan,</strong> Khalid AbdulJabbar, Jose Coelho-Lima, Anca-Ioana Grapa, Hanyun Zhang, Ho Kwan Alvin Cheung, Juvenal Baena, Takahiro Karasaki, Claire Wilson, Marco Sereno, Selvaraju Veeriah, Sarah Aitken, Allan Hackshaw, Andrew Nicholson, Mariam Jamal-Hanjani, Charles Swanton, Yinyin Yuan, John Le Quesne, David Moore. <strong><em>Nature Cancer</em></strong>, 2024.</p>
+:::
+
+::: {.publication}
+<strong>
+              <a href="https://www.nature.com/articles/s41416-025-03306-9" target="_blank" rel="noopener">
+              Gompertz growth with a shared carrying capacity optimally simulates primary and metastatic tumor growth dynamics
+               </a>
+            </strong>
+
+<p class="authors">Pirmin Schlicke, Preethi Korangath,<strong>Xiaoxi Pan,</strong> Caner Ercan, Kathleen Gabrielson, Lyndsey Werhane, Yinyin Yuan, Sebastien Benzekry, Robert Ivkov, and Heiko Enderling. <strong><em>British Journal of Cancer</em></strong>, 2026.</p>
+:::
+
+::: {.publication}
+<strong>
+              <a href="https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00027-3" target="_blank" rel="noopener">
+              Tumor microenvironment transcriptional activity enables robust stratification of chemotherapy response in triple-negative breast cancer 
+              </a>
+            </strong>
+
+<p class="authors">Yaoyi Dai, <strong>Xiaoxi Pan,</strong> Shuai Guo, Shuangxi Ji, Shaolong Cao, Matthew Montierth, Yujie Jiang, Leming Shi, Shabnam Shalapour, Gloria V Echeverria, Lucy Yates, Johan Staaf, Jeffrey T Chang, Bora Lim, Yinyin Yuan, Wenyi Wang. <strong><em>Cell Reports Medicine</em></strong>, 2026.</p>
+:::
+
+::: {.publication}
+<strong>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9187697" target="_blank" rel="noopener">
+              Multi-view separable pyramid network for AD prediction at MCI Stage by 18F-FDG brain PET imaging
+              </a>
+            </strong>
+
+<p class="authors"><strong>Xiaoxi Pan,</strong> Trong-Le Phan, Mouloud Adel,Caroline Fossati, Thierry Gaidon, Julien Wojak, Eric Guedj. <strong><em>IEEE Transactions on Medical Imaging</em></strong>, 2021.</p>
+:::
+
+::: {.content-note}
+This selected list follows the personal website’s published citations. Add the lab’s complete bibliography and any newly accepted work when available.
+:::

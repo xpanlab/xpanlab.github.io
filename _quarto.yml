@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - research.qmd
+    - publications.qmd
+    - join.qmd
+  resources:
+    - CNAME
+    - images/
+    - assets/
+
+website:
+  title: "Pan Lab"
+  site-url: https://xpanlab.org
+  description: "Computational pathology, artificial intelligence, and spatial omics at Pan Lab."
+  search: false
+  navbar:
+    background: white
+    foreground: "#222222"
+    collapse-below: md
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: join.qmd
+        text: Join Us
+  page-footer:
+    border: false
+    center: "Pan Lab · Huntsman Cancer Institute · University of Utah"
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: false
+    anchor-sections: false
+    title-block-banner: false
+    include-before-body: assets/banner-top.html
+    include-after-body: assets/banner-bottom.html
+    lang: en

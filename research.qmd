@@ -1,0 +1,25 @@
+---
+title: "Research"
+---
+
+We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer. The themes below describe our research interests; individual projects and study figures will be added as they become available.
+
+## Computational pathology
+
+How can routine tissue images reveal meaningful differences in cancer? We develop interpretable image analysis methods to characterize cells, tissue architecture, and tumor heterogeneity, with an emphasis on biological understanding and clinical relevance.
+
+![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](assets/pathology.svg)
+
+## Spatial organization of the tumor microenvironment
+
+Cancer develops within a complex community of tumor, immune, and stromal cells. We investigate how their arrangement and interactions relate to disease progression and treatment response.
+
+![Conceptual diagram of tumor, immune, and stromal cells in a tissue neighborhood.](assets/neighborhood.svg)
+
+## Integrating pathology and spatial omics
+
+We bring tissue images together with spatial molecular measurements to study how cellular states map onto tissue structure. These complementary views can help explain microenvironmental changes and generate hypotheses for further investigation.
+
+![Conceptual integration of tissue morphology and spatial molecular measurements.](assets/integration.svg)
+
+All figures are conceptual illustrations, not experimental results.
