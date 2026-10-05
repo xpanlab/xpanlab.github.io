@@ -17,10 +17,12 @@ website:
   description: "Computational pathology, artificial intelligence, and spatial omics at Pan Lab."
   search: false
   navbar:
-    background: white
-    foreground: "#222222"
+    title: false
+    background: dark
+    foreground: "#ffffff"
+    pinned: true
     collapse-below: md
-    left:
+    right:
       - href: index.qmd
         text: Home
       - href: research.qmd
@@ -31,7 +33,7 @@ website:
         text: Join Us
   page-footer:
     border: false
-    center: "Pan Lab · Huntsman Cancer Institute · University of Utah"
+    center: "[Huntsman Cancer Institute](https://healthcare.utah.edu/huntsmancancerinstitute/) · [Department of Oncological Sciences](https://medicine.utah.edu/oncological-sciences) · University of Utah"
 
 format:
   html:
@@ -40,6 +42,5 @@ format:
     toc: false
     anchor-sections: false
     title-block-banner: false
-    include-before-body: assets/banner-top.html
     include-after-body: assets/banner-bottom.html
     lang: en

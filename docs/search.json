@@ -1,10 +1,17 @@
 [
   {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "We welcome expressions of interest from people excited about computational pathology, cancer biology, artificial intelligence, and spatial omics.\nOur work sits at the intersection of methods and biology. Experience in image analysis, machine learning, bioinformatics, or cancer research is relevant, along with curiosity and a willingness to learn across disciplines."
+  },
+  {
     "objectID": "join.html#build-with-us",
     "href": "join.html#build-with-us",
     "title": "Join Us",
-    "section": "Build with us",
-    "text": "Build with us\nWe welcome expressions of interest from people excited about computational pathology, cancer biology, artificial intelligence, and spatial omics.\nOur work sits at the intersection of methods and biology. Experience in image analysis, machine learning, bioinformatics, or cancer research is relevant, along with curiosity and a willingness to learn across disciplines."
+    "section": "",
+    "text": "We welcome expressions of interest from people excited about computational pathology, cancer biology, artificial intelligence, and spatial omics.\nOur work sits at the intersection of methods and biology. Experience in image analysis, machine learning, bioinformatics, or cancer research is relevant, along with curiosity and a willingness to learn across disciplines."
   },
   {
     "objectID": "join.html#how-to-express-interest",
@@ -42,18 +49,25 @@
     "text": "Integrating pathology and spatial omics\nWe bring tissue images together with spatial molecular measurements to study how cellular states map onto tissue structure. These complementary views can help explain microenvironmental changes and generate hypotheses for further investigation.\n\n\n\nConceptual integration of tissue morphology and spatial molecular measurements.\n\n\nAll figures are conceptual illustrations, not experimental results."
   },
   {
-    "objectID": "index.html#about",
-    "href": "index.html#about",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Pan Lab",
-    "section": "About",
-    "text": "About\nWe study how the organization of cells within tissue shapes cancer biology. Our research brings together computational pathology, interpretable AI, and spatial omics to connect microscopic tissue patterns with biological mechanisms and clinically meaningful questions.\nLed by Xiaoxi Pan, the lab builds on his work in medical image analysis and cancer research at the Institute of Cancer Research and MD Anderson Cancer Center. He received his Ph.D. in Optics, Photonics and Image Processing at École Centrale Marseille.\nExplore our research · Join the lab"
+    "section": "",
+    "text": "xiaoxi.pan@hci.utah.edu\n\n GitHub  Google Scholar  LinkedIn\n\nHuntsman Cancer Institute\nDepartment of Oncological Sciences\nUniversity of Utah\n\n\n\n\n\nComputational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research\n\n\n\nI am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My research program develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.\nPrior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by Dr. Yinyin Yuan at The University of Texas MD Anderson Cancer Center (2023 to 2026). My postdoc trainined was completed in Dr. Yuan’s lab at the Institute of Cancer Research (ICR), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at Ecole Centrale Marseille, France (2016 to 2019).\nI am actively looking for talented students and postdocs as the founding members for Pan Lab! See how to join the lab.\n\n\n\n\nSep 2026 — One co-authored paper was accepted by Cancer Research, Congrats Caner and the teams!\nSep 2026 — Xiaoxi joined the U and started the Pan Lab.\nSep 2026 — Our paper on AI-derived sTILs for pCR prediction was published at npj Breast Cancer.\nMay 2026 — One co-authored paper has been provisionally accepted by MICCAI 2026. Congrats Yutong and Chengyue!\nApr 2026 — Xiaoxi gave an invited talk at the BCB Seminar Series.\n:::"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Pan Lab",
+    "section": "",
+    "text": "I am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My research program develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.\nPrior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by Dr. Yinyin Yuan at The University of Texas MD Anderson Cancer Center (2023 to 2026). My postdoc trainined was completed in Dr. Yuan’s lab at the Institute of Cancer Research (ICR), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at Ecole Centrale Marseille, France (2016 to 2019).\nI am actively looking for talented students and postdocs as the founding members for Pan Lab! See how to join the lab."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "Pan Lab",
-    "section": "News",
-    "text": "News\n\nApril 2026 — Xiaoxi gave an invited talk at the Oncological Data Science Symposium at Huntsman Cancer Institute.\nApril 2026 — Xiaoxi gave an invited talk at the BCB Seminar Series.\nDecember 2025 — A co-authored paper was accepted by Cell Reports Medicine.\n\n\nMore lab news will be added here as the team grows."
+    "section": "",
+    "text": "Sep 2026 — One co-authored paper was accepted by Cancer Research, Congrats Caner and the teams!\nSep 2026 — Xiaoxi joined the U and started the Pan Lab.\nSep 2026 — Our paper on AI-derived sTILs for pCR prediction was published at npj Breast Cancer.\nMay 2026 — One co-authored paper has been provisionally accepted by MICCAI 2026. Congrats Yutong and Chengyue!\nApr 2026 — Xiaoxi gave an invited talk at the BCB Seminar Series."
   },
   {
     "objectID": "publications.html",

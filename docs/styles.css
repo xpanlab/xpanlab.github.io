@@ -1,14 +1,45 @@
 /* System typography and quiet, content-first academic layout. */
-:root { --ink: #222; --muted: #666; --line: #e5e5e5; --link: #1765a7; }
+:root { --ink: #000; --muted: #000; --line: #e5e5e5; --link: #1765a7; }
 body { background: #fff; color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.65; }
 #quarto-content { width: 100%; }
-main.content { max-width: 1060px; width: 100%; margin: 0 auto; padding: 2.5rem 1.5rem 3rem; }
-#quarto-header { background: white; border-bottom: 1px solid var(--line); }
-.navbar { max-width: 1108px; margin: auto; padding: 1rem 1.5rem; }
+/* Span Quarto's outer grid so its default article width does not constrain us. */
+#quarto-content > main.content {
+  grid-column: screen-start / screen-end;
+  max-width: 1300px;
+  width: 100%;
+  min-width: 0;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+}
+/* The header itself is the top banner, so navigation sits on the image. */
+body { padding-top: 0 !important; overflow-x: clip; }
+#quarto-header {
+  position: relative !important;
+  top: auto !important;
+  transform: none !important;
+  background: #222 url("images/top-banner.jpg") center top / cover no-repeat;
+  border: 0;
+}
+.navbar {
+  max-width: none;
+  min-height: clamp(80px, 8vw, 110px);
+  margin: 0;
+  padding: 1.25rem 2rem;
+  background-color: rgba(0, 0, 0, .1) !important;
+  --bs-navbar-color: #fff;
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+}
+.navbar-brand, .navbar .navbar-brand:hover { color: #fff; }
+.navbar-collapse { justify-content: flex-end; }
+.navbar-toggler { border-color: rgba(255, 255, 255, .65); }
+.navbar-toggler-icon { filter: none; }
 .navbar-brand { font-size: 1.35rem; font-weight: 600; }
 .navbar-nav { gap: 1rem; }
-.navbar .nav-link { color: var(--muted); }
-.navbar .nav-link.active { color: var(--ink); text-decoration: underline; text-underline-offset: .45em; }
+.navbar .nav-link, .navbar .nav-link:hover { color: #fff; }
+.navbar .nav-link.active { color: #a9d7ff; text-decoration: underline; text-underline-offset: .45em; }
+.navbar a:focus-visible, .navbar button:focus-visible { outline-color: #fff; }
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
@@ -17,15 +48,24 @@ h1 { font-size: 2rem; margin-bottom: 1rem; }
 h2 { font-size: 1.45rem; border: 0; margin-top: 2.2rem; padding: 0; }
 h3 { font-size: 1.1rem; }
 p { margin-bottom: 1.1rem; }
-.site-banner { width: 100%; overflow: hidden; }
+.site-banner {
+  width: 100vw;
+  max-width: none;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  overflow: hidden;
+}
 .site-banner img { width: 100%; height: clamp(100px, 13vw, 180px); object-fit: cover; display: block; }
-.banner-top { margin-bottom: 2rem; }
-.banner-top img { object-position: center; }
 .banner-bottom { margin-top: 1rem; }
-.intro-grid { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 3rem; }
+.intro-grid { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 3rem; }
 .profile-photo { width: 180px; height: auto; border: 1px solid var(--line); }
 .profile p { font-size: .94rem; color: var(--muted); }
 .profile h3 { margin-top: 1.2rem; }
+.social-links { display: flex; flex-wrap: wrap; gap: .5rem .8rem; margin: -.35rem 0 0; font-size: 10px; }
+.social-links a { display: inline-flex; align-items: center; gap: .35rem; white-space: nowrap; }
+.social-links .bi { font-size: .75rem; }
+.profile .social-links + p { margin-top: 0; }
+
 .research-tagline { color: var(--muted); font-size: .95rem; }
 .content-note { color: var(--muted); font-size: .92rem; margin: 1.8rem 0; }
 .quarto-figure { margin: 1.8rem 0 2.5rem; text-align: left; }
@@ -36,9 +76,12 @@ figcaption { color: var(--muted); font-size: .86rem; text-align: left; }
 .publication .authors, .publication .venue { color: var(--muted); font-size: .94rem; }
 .nav-footer { color: var(--muted); font-size: .85rem; padding: 1.3rem; }
 @media (max-width: 767px) {
- main.content { padding: 1.8rem 1.2rem 2rem; }
+ #quarto-content > main.content { padding: 1.8rem 1.2rem 2rem; }
  .intro-grid { grid-template-columns: 1fr; gap: 1.8rem; }
  .profile-photo { width: 150px; }
+ .navbar { padding: 1rem 1.2rem; }
  .navbar-nav { gap: .25rem; }
+ .navbar-collapse { margin-top: 1rem; }
+ .navbar .nav-link { padding: .6rem 0; }
  h1 { font-size: 1.8rem; }
 }
