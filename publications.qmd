@@ -4,6 +4,14 @@ title: "Publications"
 
 A full list of publications is available on [Google Scholar](https://scholar.google.com/citations?user=HlK3iTkAAAAJ).
 
+## 2026
+
+::: {.publication}
+<strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12642709/" target="_blank" rel="noopener">Histopathology-based Spatial Profiling of Immune and Molecular Features Predicts Cancer risk in Barrett’s Esophagus</a></strong>
+
+<p class="authors">Caner Ercan, <strong>Xiaoxi Pan,</strong> Thomas G Paulson, Matthew D Stachler, Fahire Göknur Akarca, William M Grady, Carlo C Maley, Yinyin Yuan. Accepted by <strong><em>Cancer Research</em></strong>, 2026.</p>
+:::
+
 ::: {.publication}
 <strong><a href="https://www.nature.com/articles/s41523-026-01040-w" target="_blank" rel="noopener">AI-derived tumor-infiltrating lymphocytes enhance the prediction of pathologic complete response in early-stage triple-negative breast cancer</a></strong>
 
@@ -23,10 +31,24 @@ A full list of publications is available on [Google Scholar](https://scholar.goo
 :::
 
 ::: {.publication}
+<strong>
+              <a href="https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00027-3" target="_blank" rel="noopener">
+              Tumor microenvironment transcriptional activity enables robust stratification of chemotherapy response in triple-negative breast cancer 
+              </a>
+            </strong>
+
+<p class="authors">Yaoyi Dai, <strong>Xiaoxi Pan,</strong> Shuai Guo, Shuangxi Ji, Shaolong Cao, Matthew Montierth, Yujie Jiang, Leming Shi, Shabnam Shalapour, Gloria V Echeverria, Lucy Yates, Johan Staaf, Jeffrey T Chang, Bora Lim, Yinyin Yuan, Wenyi Wang. <strong><em>Cell Reports Medicine</em></strong>, 2026.</p>
+:::
+
+## 2025
+
+::: {.publication}
 <strong><a href="https://arxiv.org/abs/2508.10232" target="_blank" rel="noopener">CellSymphony: Deciphering the molecular and phenotypic orchestration of cells with single-cell pathomics</a></strong>
 
 <p class="authors">Paul H Acosta, Pingjun Chen, Simon P Castillo, Maria Esther Salvatierra, Yinyin Yuan, <strong>Xiaoxi Pan.</strong> <strong><em>CVPR workshop spotlight</em></strong>, 2025.</p>
 :::
+
+## 2024
 
 ::: {.publication}
 <strong>
@@ -38,25 +60,7 @@ A full list of publications is available on [Google Scholar](https://scholar.goo
 <p class="authors"><strong>Xiaoxi Pan,</strong> Khalid AbdulJabbar, Jose Coelho-Lima, Anca-Ioana Grapa, Hanyun Zhang, Ho Kwan Alvin Cheung, Juvenal Baena, Takahiro Karasaki, Claire Wilson, Marco Sereno, Selvaraju Veeriah, Sarah Aitken, Allan Hackshaw, Andrew Nicholson, Mariam Jamal-Hanjani, Charles Swanton, Yinyin Yuan, John Le Quesne, David Moore. <strong><em>Nature Cancer</em></strong>, 2024.</p>
 :::
 
-::: {.publication}
-<strong>
-              <a href="https://www.nature.com/articles/s41416-025-03306-9" target="_blank" rel="noopener">
-              Gompertz growth with a shared carrying capacity optimally simulates primary and metastatic tumor growth dynamics
-               </a>
-            </strong>
-
-<p class="authors">Pirmin Schlicke, Preethi Korangath,<strong>Xiaoxi Pan,</strong> Caner Ercan, Kathleen Gabrielson, Lyndsey Werhane, Yinyin Yuan, Sebastien Benzekry, Robert Ivkov, and Heiko Enderling. <strong><em>British Journal of Cancer</em></strong>, 2026.</p>
-:::
-
-::: {.publication}
-<strong>
-              <a href="https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(26)00027-3" target="_blank" rel="noopener">
-              Tumor microenvironment transcriptional activity enables robust stratification of chemotherapy response in triple-negative breast cancer 
-              </a>
-            </strong>
-
-<p class="authors">Yaoyi Dai, <strong>Xiaoxi Pan,</strong> Shuai Guo, Shuangxi Ji, Shaolong Cao, Matthew Montierth, Yujie Jiang, Leming Shi, Shabnam Shalapour, Gloria V Echeverria, Lucy Yates, Johan Staaf, Jeffrey T Chang, Bora Lim, Yinyin Yuan, Wenyi Wang. <strong><em>Cell Reports Medicine</em></strong>, 2026.</p>
-:::
+## Before 2024
 
 ::: {.publication}
 <strong>
@@ -66,8 +70,4 @@ A full list of publications is available on [Google Scholar](https://scholar.goo
             </strong>
 
 <p class="authors"><strong>Xiaoxi Pan,</strong> Trong-Le Phan, Mouloud Adel, Caroline Fossati, Thierry Gaidon, Julien Wojak, Eric Guedj. <strong><em>IEEE Transactions on Medical Imaging</em></strong>, 2021.</p>
-:::
-
-::: {.content-note}
-This selected list follows the personal website’s published citations. Add the lab’s complete bibliography and any newly accepted work when available.
 :::
