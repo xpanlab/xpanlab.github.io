@@ -66,6 +66,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><span class="banner-lab-name">Pan Lab</span> <span class="banner-tagline">Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research</span></span>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -129,7 +134,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="how-to-express-interest" class="level2">
 <h2 data-anchor-id="how-to-express-interest">How to express interest</h2>
 <p>Please prepare a brief description of your research interests, a CV, and links to relevant publications or projects. Explain how your interests connect with the lab’s research.</p>
-<p>For current contact information, visit <a href="https://xi11.github.io/">Xiaoxi Pan’s personal website</a>.</p>
 <div class="content-note">
 <p><strong>Recruitment details to be confirmed:</strong> specific openings, eligibility and application routes, start dates, and the lab’s University of Utah contact email. This page invites expressions of interest and does not yet list confirmed vacancies.</p>
 </div>
@@ -139,6 +143,24 @@ ul.task-list li input[type="checkbox"] {
 
 </main> <!-- /main -->
 <div class="site-banner banner-bottom" aria-hidden="true"><img src="images/bottom-banner.jpg" alt=""></div>
+<script>
+// Present the lab identity as plain text instead of Quarto's default home link.
+(() => {
+  const makeTitlePlain = () => {
+    const link = document.querySelector('#quarto-header a.navbar-brand');
+    if (!link || !link.querySelector('.banner-lab-name')) return;
+    const title = document.createElement('div');
+    title.className = link.className;
+    title.append(...link.childNodes);
+    link.replaceWith(title);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', makeTitlePlain, { once: true });
+  } else {
+    makeTitlePlain();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

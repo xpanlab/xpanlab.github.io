@@ -1,0 +1,18 @@
+<script>
+// Present the lab identity as plain text instead of Quarto's default home link.
+(() => {
+  const makeTitlePlain = () => {
+    const link = document.querySelector('#quarto-header a.navbar-brand');
+    if (!link || !link.querySelector('.banner-lab-name')) return;
+    const title = document.createElement('div');
+    title.className = link.className;
+    title.append(...link.childNodes);
+    link.replaceWith(title);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', makeTitlePlain, { once: true });
+  } else {
+    makeTitlePlain();
+  }
+})();
+</script>

@@ -66,6 +66,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><span class="banner-lab-name">Pan Lab</span> <span class="banner-tagline">Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research</span></span>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -121,43 +126,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer. The themes below describe our research interests; individual projects and study figures will be added as they become available.</p>
-<section id="computational-pathology" class="level2">
-<h2 data-anchor-id="computational-pathology">Computational pathology</h2>
+<p>We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer, primarily focusing on three themes: (1) AI model development for large-scale pathology image analysis, (2) Multi-modal integration, including radiology, pathology and omics data, and (3) pollutant’s effect on tumor microenvironment in lung cancer for never-smokers.</p>
+<section id="ai-model-development-for-large-scale-pathology-image-analysis" class="level2">
+<h2 data-anchor-id="ai-model-development-for-large-scale-pathology-image-analysis">AI model development for large-scale pathology image analysis</h2>
 <p>How can routine tissue images reveal meaningful differences in cancer? We develop interpretable image analysis methods to characterize cells, tissue architecture, and tumor heterogeneity, with an emphasis on biological understanding and clinical relevance.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/pathology.svg" class="img-fluid figure-img"></p>
+<p><img src="images/compath_workflow.png" class="img-fluid figure-img"></p>
 <figcaption>Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.</figcaption>
 </figure>
 </div>
 </section>
-<section id="spatial-organization-of-the-tumor-microenvironment" class="level2">
-<h2 data-anchor-id="spatial-organization-of-the-tumor-microenvironment">Spatial organization of the tumor microenvironment</h2>
-<p>Cancer develops within a complex community of tumor, immune, and stromal cells. We investigate how their arrangement and interactions relate to disease progression and treatment response.</p>
+<section id="multi-modal-integration-including-radiology-pathology-and-omics-data" class="level2">
+<h2 data-anchor-id="multi-modal-integration-including-radiology-pathology-and-omics-data">Multi-modal integration, including radiology, pathology and omics data</h2>
+<p>Cancer develops within a complex community of tumor, immune, and stromal cells. We investigate how their arrangement and interactions relate to disease progression and treatment response. <img src="images/CT_LPI_miccai.png" class="img-fluid" alt="Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation."></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/neighborhood.svg" class="img-fluid figure-img"></p>
-<figcaption>Conceptual diagram of tumor, immune, and stromal cells in a tissue neighborhood.</figcaption>
+<p><img src="images/path_xenium_cvpr.png" class="img-fluid figure-img"></p>
+<figcaption>Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.</figcaption>
 </figure>
 </div>
 </section>
-<section id="integrating-pathology-and-spatial-omics" class="level2">
-<h2 data-anchor-id="integrating-pathology-and-spatial-omics">Integrating pathology and spatial omics</h2>
-<p>We bring tissue images together with spatial molecular measurements to study how cellular states map onto tissue structure. These complementary views can help explain microenvironmental changes and generate hypotheses for further investigation.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="assets/integration.svg" class="img-fluid figure-img"></p>
-<figcaption>Conceptual integration of tissue morphology and spatial molecular measurements.</figcaption>
-</figure>
-</div>
-<p>All figures are conceptual illustrations, not experimental results.</p>
+<section id="pollutants-effect-on-tumor-microenvironment-in-lung-cancer-for-never-smokers" class="level2">
+<h2 data-anchor-id="pollutants-effect-on-tumor-microenvironment-in-lung-cancer-for-never-smokers">Pollutant’s effect on tumor microenvironment in lung cancer for never-smokers</h2>
 
 
 </section>
 
 </main> <!-- /main -->
 <div class="site-banner banner-bottom" aria-hidden="true"><img src="images/bottom-banner.jpg" alt=""></div>
+<script>
+// Present the lab identity as plain text instead of Quarto's default home link.
+(() => {
+  const makeTitlePlain = () => {
+    const link = document.querySelector('#quarto-header a.navbar-brand');
+    if (!link || !link.querySelector('.banner-lab-name')) return;
+    const title = document.createElement('div');
+    title.className = link.className;
+    title.append(...link.childNodes);
+    link.replaceWith(title);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', makeTitlePlain, { once: true });
+  } else {
+    makeTitlePlain();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

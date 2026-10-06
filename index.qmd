@@ -22,10 +22,6 @@ title: ""
 :::
 
 ::: {.introduction}
-# Pan Lab
-
-<p class="research-tagline">Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research</p>
-
 ## Bio
 
 I am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My [research program](research.qmd) develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.
@@ -37,12 +33,15 @@ I am actively looking for talented students and postdocs as the founding members
 
 ## News
 
-- **Sep 2026** — One co-authored paper was accepted by *Cancer Research*, Congrats Caner and the teams!
-- **Sep 2026** — Xiaoxi joined the U and started the Pan Lab.
-- **Sep 2026** — Our paper on [AI-derived sTILs for pCR prediction](https://www.nature.com/articles/s41523-026-01040-w) was published at npj Breast Cancer.
-- **May 2026** — One co-authored paper has been provisionally accepted by [MICCAI 2026](https://papers.miccai.org/miccai-2026/0694-Paper1327.html). Congrats Yutong and Chengyue!
-- **Apr 2026** — Xiaoxi gave an invited talk at the BCB Seminar Series.
+::: {.news-panel tabindex="0" role="region" aria-label="Lab news"}
+
+- [**Sep 2026**]{.news-date} [One co-authored paper was accepted by *Cancer Research*. Congrats to Caner and the team!]{.news-text}
+- [**Sep 2026**]{.news-date} [Xiaoxi joined the U and started the Pan Lab.]{.news-text}
+- [**Sep 2026**]{.news-date} [Our paper on [AI-derived sTILs for pCR prediction](https://www.nature.com/articles/s41523-026-01040-w) was published at npj Breast Cancer. Congrats to the team!]{.news-text}
+- [**May 2026**]{.news-date} [One co-authored paper has been provisionally accepted by [MICCAI 2026](https://papers.miccai.org/miccai-2026/0694-Paper1327.html). Congrats to Yutong and Chengyue!]{.news-text}
+- [**Apr 2026**]{.news-date} [Xiaoxi gave an invited talk at the BCB Seminar Series.]{.news-text}
 
 :::
+
 :::
 :::

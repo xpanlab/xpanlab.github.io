@@ -66,6 +66,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><span class="banner-lab-name">Pan Lab</span> <span class="banner-tagline">Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research</span></span>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -121,7 +126,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Selected published work by Xiaoxi Pan and collaborators. See <a href="https://scholar.google.com/citations?user=HlK3iTkAAAAJ">Google Scholar</a> for the wider publication record.</p>
+<p>A full list of publications is available on <a href="https://scholar.google.com/citations?user=HlK3iTkAAAAJ">Google Scholar</a>.</p>
+<div class="publication">
+<p><strong><a href="https://www.nature.com/articles/s41523-026-01040-w" target="_blank" rel="noopener">AI-derived tumor-infiltrating lymphocytes enhance the prediction of pathologic complete response in early-stage triple-negative breast cancer</a></strong></p>
+<p class="authors">
+<strong>Xiaoxi Pan,</strong> Caner Ercan, Zhongya Wang, Roland L Bassett, Karina B Pinao Gonzales, Gaiane M Rauch, Beatriz E Adrada, Rosalind P Candelaria, Debu Tripathy, Jennifer K Litton, Sharon H Giordano, Vicente Valero, Banu Arun, Alyson Clayborn, Kiran Virani, Jason White, Qingqing Ding, Aysegul A Sahin, William Fraser Symmans, Clinton Yam, Lei Huo, Yinyin Yuan. <strong><em>npj Breast Cancer</em></strong>, 2026.
+</p>
+</div>
+<div class="publication">
+<p><strong><a href="https://arxiv.org/abs/2604.23799" target="_blank" rel="noopener">VitaminP: cross-modal learning enables whole-cell segmentation from routine histology</a></strong></p>
+<p class="authors">
+Yasin Shokrollahi, Karina B Pinao Gonzales, Elizve N Barrientos Toro, Paul Acosta, Patient Mosaic Team, Pingjun Chen, Yinyin Yuan, <strong>Xiaoxi Pan.</strong> <strong><em>arXiv preprint</em></strong>, 2026.
+</p>
+</div>
+<div class="publication">
+<p><strong><a href="https://papers.miccai.org/miccai-2026/paper/1327_paper.pdf" target="_blank" rel="noopener">Multi-Regional CT Radiomics Fusion to Quantify Pathology-Derived Pollutant Burden in Lung Cancer</a></strong></p>
+<p class="authors">
+Yutong Li, <strong>Xiaoxi Pan,</strong> Abishek Balachandran, Carmen Behrens, Maria Esther Salvatierra, Luisa Maren Solis Soto, Chingyi Young, Yinyin Yuan, Chengyue Wu. <strong><em>MICCAI</em></strong>, 2026.
+</p>
+</div>
+<div class="publication">
+<p><strong><a href="https://arxiv.org/abs/2508.10232" target="_blank" rel="noopener">CellSymphony: Deciphering the molecular and phenotypic orchestration of cells with single-cell pathomics</a></strong></p>
+<p class="authors">
+Paul H Acosta, Pingjun Chen, Simon P Castillo, Maria Esther Salvatierra, Yinyin Yuan, <strong>Xiaoxi Pan.</strong> <strong><em>CVPR workshop spotlight</em></strong>, 2025.
+</p>
+</div>
 <div class="publication">
 <p><strong> <a href="https://www.nature.com/articles/s43018-023-00694-w" target="_blank" rel="noopener"> The artificial intelligence-based model ANORAK improves histopathological grading of lung adenocarcinoma </a> </strong></p>
 <p class="authors">
@@ -143,7 +172,7 @@ Yaoyi Dai, <strong>Xiaoxi Pan,</strong> Shuai Guo, Shuangxi Ji, Shaolong Cao, Ma
 <div class="publication">
 <p><strong> <a href="https://ieeexplore.ieee.org/abstract/document/9187697" target="_blank" rel="noopener"> Multi-view separable pyramid network for AD prediction at MCI Stage by 18F-FDG brain PET imaging </a> </strong></p>
 <p class="authors">
-<strong>Xiaoxi Pan,</strong> Trong-Le Phan, Mouloud Adel,Caroline Fossati, Thierry Gaidon, Julien Wojak, Eric Guedj. <strong><em>IEEE Transactions on Medical Imaging</em></strong>, 2021.
+<strong>Xiaoxi Pan,</strong> Trong-Le Phan, Mouloud Adel, Caroline Fossati, Thierry Gaidon, Julien Wojak, Eric Guedj. <strong><em>IEEE Transactions on Medical Imaging</em></strong>, 2021.
 </p>
 </div>
 <div class="content-note">
@@ -154,6 +183,24 @@ Yaoyi Dai, <strong>Xiaoxi Pan,</strong> Shuai Guo, Shuangxi Ji, Shaolong Cao, Ma
 
 </main> <!-- /main -->
 <div class="site-banner banner-bottom" aria-hidden="true"><img src="images/bottom-banner.jpg" alt=""></div>
+<script>
+// Present the lab identity as plain text instead of Quarto's default home link.
+(() => {
+  const makeTitlePlain = () => {
+    const link = document.querySelector('#quarto-header a.navbar-brand');
+    if (!link || !link.querySelector('.banner-lab-name')) return;
+    const title = document.createElement('div');
+    title.className = link.className;
+    title.append(...link.childNodes);
+    link.replaceWith(title);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', makeTitlePlain, { once: true });
+  } else {
+    makeTitlePlain();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {

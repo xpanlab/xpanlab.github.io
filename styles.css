@@ -22,9 +22,9 @@ body { padding-top: 0 !important; overflow-x: clip; }
 }
 .navbar {
   max-width: none;
-  min-height: clamp(80px, 8vw, 110px);
+  min-height: clamp(120px, 8vw, 150px);
   margin: 0;
-  padding: 1.25rem 2rem;
+  padding: 1rem 2rem 0;
   background-color: rgba(0, 0, 0, .1) !important;
   --bs-navbar-color: #fff;
   --bs-navbar-active-color: #fff;
@@ -32,10 +32,35 @@ body { padding-top: 0 !important; overflow-x: clip; }
   --bs-navbar-brand-hover-color: #fff;
 }
 .navbar-brand, .navbar .navbar-brand:hover { color: #fff; }
+.navbar .navbar-brand, .navbar .navbar-brand:hover { text-decoration: none; cursor: default; }
 .navbar-collapse { justify-content: flex-end; }
 .navbar-toggler { border-color: rgba(255, 255, 255, .65); }
 .navbar-toggler-icon { filter: none; }
-.navbar-brand { font-size: 1.35rem; font-weight: 600; }
+/* Lab identity lives in the banner; allow the tagline to wrap on narrow screens. */
+.navbar > .navbar-container {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr);
+  width: 100%;
+  max-width: none !important;
+}
+/* Center the lab identity above the navigation, as in the banner reference. */
+.navbar .navbar-brand-container {
+  grid-column: 1;
+  grid-row: 1;
+  width: 100%;
+  max-width: none;
+  margin: .75rem 0 0 !important;
+}
+.navbar .navbar-collapse { grid-column: 1; grid-row: 2; margin-top: .2rem; justify-content: flex-end; }
+.navbar .navbar-title { display: block; width: 100%; text-align: center; }
+.navbar-brand-container { order: 2; flex: 0 0 100%; min-width: 0; text-align: center; margin: .75rem 0 0 !important; }
+.navbar-toggler { order: 0; margin-left: auto; }
+.navbar-collapse { order: 1; flex-basis: 100%; width: 100%; }
+.navbar-brand { display: block; width: 100%; white-space: normal; margin-right: 0; font-weight: 600; }
+.banner-lab-name { display: block; font-size: clamp(2rem, 2.8vw, 3rem); line-height: 1.15; }
+.banner-tagline { display: block; margin-top: .3rem; font-size: clamp(.8rem, 1vw, 1rem); font-weight: 400; line-height: 1.5; }
+.navbar-collapse { flex-grow: 0; }
+.introduction > section:first-child > h2 { margin-top: 0; }
 .navbar-nav { gap: 1rem; }
 .navbar .nav-link, .navbar .nav-link:hover { color: #fff; }
 .navbar .nav-link.active { color: #a9d7ff; text-decoration: underline; text-underline-offset: .45em; }
@@ -57,6 +82,8 @@ p { margin-bottom: 1.1rem; }
 }
 .site-banner img { width: 100%; height: clamp(100px, 13vw, 180px); object-fit: cover; display: block; }
 .banner-bottom { margin-top: 1rem; }
+/* Keep the lower portion visible when the bottom banner is cropped. */
+.banner-bottom img { object-position: center bottom; }
 .intro-grid { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 3rem; }
 .profile-photo { width: 180px; height: auto; border: 1px solid var(--line); }
 .profile p { font-size: .94rem; color: var(--muted); }
@@ -75,11 +102,27 @@ figcaption { color: var(--muted); font-size: .86rem; text-align: left; }
 .publication p { margin: .25rem 0; }
 .publication .authors, .publication .venue { color: var(--muted); font-size: .94rem; }
 .nav-footer { color: var(--muted); font-size: .85rem; padding: 1.3rem; }
+/* Keep long news archives scrollable without extending the whole page. */
+.news-panel { max-height: 280px; overflow-y: auto; padding-right: .75rem; scrollbar-width: thin; }
+.news-panel li { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 1rem; margin-bottom: .65rem; }
+.news-panel li > p { display: contents; }
+.news-panel .news-date { white-space: nowrap; }
+.news-panel ul { list-style: none; padding-left: 0; margin-bottom: 0; }
+.news-panel:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
 @media (max-width: 767px) {
+ .news-panel { max-height: 220px; }
+ .news-panel li { grid-template-columns: 5rem minmax(0, 1fr); gap: .6rem; }
  #quarto-content > main.content { padding: 1.8rem 1.2rem 2rem; }
  .intro-grid { grid-template-columns: 1fr; gap: 1.8rem; }
  .profile-photo { width: 150px; }
- .navbar { padding: 1rem 1.2rem; }
+ .navbar { padding: 1rem 1.2rem 0; }
+ .navbar .navbar-brand-container { width: 100%; margin: .75rem 0 0 !important; }
+ .navbar .navbar-title { text-align: center; }
+ .navbar .navbar-toggler { grid-column: 1; grid-row: 2; justify-self: end; }
+ .navbar .navbar-collapse { grid-row: 3; }
+ .banner-lab-name { font-size: 1.5rem; }
+ .banner-tagline { font-size: .75rem; }
+ .navbar-collapse { width: 100%; }
  .navbar-nav { gap: .25rem; }
  .navbar-collapse { margin-top: 1rem; }
  .navbar .nav-link { padding: .6rem 0; }

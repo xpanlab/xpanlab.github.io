@@ -2,24 +2,20 @@
 title: "Research"
 ---
 
-We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer. The themes below describe our research interests; individual projects and study figures will be added as they become available.
+We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer, primarily focusing on three themes: (1) AI model development for large-scale pathology image analysis, (2) Multi-modal integration, including radiology, pathology and omics data, and (3) pollutant’s effect on tumor microenvironment in lung cancer for never-smokers.
 
-## Computational pathology
+## AI model development for large-scale pathology image analysis
 
 How can routine tissue images reveal meaningful differences in cancer? We develop interpretable image analysis methods to characterize cells, tissue architecture, and tumor heterogeneity, with an emphasis on biological understanding and clinical relevance.
 
-![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](assets/pathology.svg)
+![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](images/compath_workflow.png)
 
-## Spatial organization of the tumor microenvironment
+## Multi-modal integration, including radiology, pathology and omics data
 
 Cancer develops within a complex community of tumor, immune, and stromal cells. We investigate how their arrangement and interactions relate to disease progression and treatment response.
+![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](images/CT_LPI_miccai.png)
 
-![Conceptual diagram of tumor, immune, and stromal cells in a tissue neighborhood.](assets/neighborhood.svg)
+![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](images/path_xenium_cvpr.png)
 
-## Integrating pathology and spatial omics
+## Pollutant’s effect on tumor microenvironment in lung cancer for never-smokers
 
-We bring tissue images together with spatial molecular measurements to study how cellular states map onto tissue structure. These complementary views can help explain microenvironmental changes and generate hypotheses for further investigation.
-
-![Conceptual integration of tissue morphology and spatial molecular measurements.](assets/integration.svg)
-
-All figures are conceptual illustrations, not experimental results.

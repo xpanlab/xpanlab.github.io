@@ -17,7 +17,9 @@ website:
   description: "Computational pathology, artificial intelligence, and spatial omics at Pan Lab."
   search: false
   navbar:
-    title: false
+    title: |
+      <span class="banner-lab-name">Pan Lab</span>
+      <span class="banner-tagline">Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research</span>
     background: dark
     foreground: "#ffffff"
     pinned: true
@@ -42,5 +44,7 @@ format:
     toc: false
     anchor-sections: false
     title-block-banner: false
-    include-after-body: assets/banner-bottom.html
+    include-after-body:
+      - assets/banner-bottom.html
+      - assets/banner-title.html
     lang: en

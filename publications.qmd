@@ -2,7 +2,31 @@
 title: "Publications"
 ---
 
-Selected published work by Xiaoxi Pan and collaborators. See [Google Scholar](https://scholar.google.com/citations?user=HlK3iTkAAAAJ) for the wider publication record.
+A full list of publications is available on [Google Scholar](https://scholar.google.com/citations?user=HlK3iTkAAAAJ).
+
+::: {.publication}
+<strong><a href="https://www.nature.com/articles/s41523-026-01040-w" target="_blank" rel="noopener">AI-derived tumor-infiltrating lymphocytes enhance the prediction of pathologic complete response in early-stage triple-negative breast cancer</a></strong>
+
+<p class="authors"><strong>Xiaoxi Pan,</strong> Caner Ercan, Zhongya Wang, Roland L Bassett, Karina B Pinao Gonzales, Gaiane M Rauch, Beatriz E Adrada, Rosalind P Candelaria, Debu Tripathy, Jennifer K Litton, Sharon H Giordano, Vicente Valero, Banu Arun, Alyson Clayborn, Kiran Virani, Jason White, Qingqing Ding, Aysegul A Sahin, William Fraser Symmans, Clinton Yam, Lei Huo, Yinyin Yuan. <strong><em>npj Breast Cancer</em></strong>, 2026.</p>
+:::
+
+::: {.publication}
+<strong><a href="https://arxiv.org/abs/2604.23799" target="_blank" rel="noopener">VitaminP: cross-modal learning enables whole-cell segmentation from routine histology</a></strong>
+
+<p class="authors">Yasin Shokrollahi, Karina B Pinao Gonzales, Elizve N Barrientos Toro, Paul Acosta, Patient Mosaic Team, Pingjun Chen, Yinyin Yuan, <strong>Xiaoxi Pan.</strong> <strong><em>arXiv preprint</em></strong>, 2026.</p>
+:::
+
+::: {.publication}
+<strong><a href="https://papers.miccai.org/miccai-2026/paper/1327_paper.pdf" target="_blank" rel="noopener">Multi-Regional CT Radiomics Fusion to Quantify Pathology-Derived Pollutant Burden in Lung Cancer</a></strong>
+
+<p class="authors">Yutong Li, <strong>Xiaoxi Pan,</strong> Abishek Balachandran, Carmen Behrens, Maria Esther Salvatierra, Luisa Maren Solis Soto, Chingyi Young, Yinyin Yuan, Chengyue Wu. <strong><em>MICCAI</em></strong>, 2026.</p>
+:::
+
+::: {.publication}
+<strong><a href="https://arxiv.org/abs/2508.10232" target="_blank" rel="noopener">CellSymphony: Deciphering the molecular and phenotypic orchestration of cells with single-cell pathomics</a></strong>
+
+<p class="authors">Paul H Acosta, Pingjun Chen, Simon P Castillo, Maria Esther Salvatierra, Yinyin Yuan, <strong>Xiaoxi Pan.</strong> <strong><em>CVPR workshop spotlight</em></strong>, 2025.</p>
+:::
 
 ::: {.publication}
 <strong>
@@ -41,7 +65,7 @@ Selected published work by Xiaoxi Pan and collaborators. See [Google Scholar](ht
               </a>
             </strong>
 
-<p class="authors"><strong>Xiaoxi Pan,</strong> Trong-Le Phan, Mouloud Adel,Caroline Fossati, Thierry Gaidon, Julien Wojak, Eric Guedj. <strong><em>IEEE Transactions on Medical Imaging</em></strong>, 2021.</p>
+<p class="authors"><strong>Xiaoxi Pan,</strong> Trong-Le Phan, Mouloud Adel, Caroline Fossati, Thierry Gaidon, Julien Wojak, Eric Guedj. <strong><em>IEEE Transactions on Medical Imaging</em></strong>, 2021.</p>
 :::
 
 ::: {.content-note}

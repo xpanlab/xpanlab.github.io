@@ -66,6 +66,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-md " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title"><span class="banner-lab-name">Pan Lab</span> <span class="banner-tagline">Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research</span></span>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -119,11 +124,7 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://www.utah.edu/">University of Utah</a></p>
 </section>
 </div>
-<section id="pan-lab" class="level1 introduction">
-<h1>Pan Lab</h1>
-<p class="research-tagline">
-Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Research
-</p>
+<div class="introduction">
 <section id="bio" class="level2">
 <h2 data-anchor-id="bio">Bio</h2>
 <p>I am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My <a href="./research.html">research program</a> develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.</p>
@@ -132,22 +133,41 @@ Computational Pathology · Artificial Intelligence · Spatial Omics · Cancer Re
 </section>
 <section id="news" class="level2">
 <h2 data-anchor-id="news">News</h2>
+<div class="news-panel" tabindex="0" role="region" aria-label="Lab news">
 <ul>
-<li><strong>Sep 2026</strong> — One co-authored paper was accepted by <em>Cancer Research</em>, Congrats Caner and the teams!</li>
-<li><strong>Sep 2026</strong> — Xiaoxi joined the U and started the Pan Lab.</li>
-<li><strong>Sep 2026</strong> — Our paper on <a href="https://www.nature.com/articles/s41523-026-01040-w">AI-derived sTILs for pCR prediction</a> was published at npj Breast Cancer.</li>
-<li><strong>May 2026</strong> — One co-authored paper has been provisionally accepted by <a href="https://papers.miccai.org/miccai-2026/0694-Paper1327.html">MICCAI 2026</a>. Congrats Yutong and Chengyue!</li>
-<li><strong>Apr 2026</strong> — Xiaoxi gave an invited talk at the BCB Seminar Series.</li>
+<li><span class="news-date"><strong>Sep 2026</strong></span> <span class="news-text">One co-authored paper was accepted by <em>Cancer Research</em>. Congrats to Caner and the team!</span></li>
+<li><span class="news-date"><strong>Sep 2026</strong></span> <span class="news-text">Xiaoxi joined the U and started the Pan Lab.</span></li>
+<li><span class="news-date"><strong>Sep 2026</strong></span> <span class="news-text">Our paper on <a href="https://www.nature.com/articles/s41523-026-01040-w">AI-derived sTILs for pCR prediction</a> was published at npj Breast Cancer. Congrats to the team!</span></li>
+<li><span class="news-date"><strong>May 2026</strong></span> <span class="news-text">One co-authored paper has been provisionally accepted by <a href="https://papers.miccai.org/miccai-2026/0694-Paper1327.html">MICCAI 2026</a>. Congrats to Yutong and Chengyue!</span></li>
+<li><span class="news-date"><strong>Apr 2026</strong></span> <span class="news-text">Xiaoxi gave an invited talk at the BCB Seminar Series.</span></li>
 </ul>
-</section>
+</div>
 </section>
 </div>
-<p>:::</p>
+</div>
 
 
 
 </main> <!-- /main -->
 <div class="site-banner banner-bottom" aria-hidden="true"><img src="images/bottom-banner.jpg" alt=""></div>
+<script>
+// Present the lab identity as plain text instead of Quarto's default home link.
+(() => {
+  const makeTitlePlain = () => {
+    const link = document.querySelector('#quarto-header a.navbar-brand');
+    if (!link || !link.querySelector('.banner-lab-name')) return;
+    const title = document.createElement('div');
+    title.className = link.className;
+    title.append(...link.childNodes);
+    link.replaceWith(title);
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', makeTitlePlain, { once: true });
+  } else {
+    makeTitlePlain();
+  }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const isCodeAnnotation = (el) => {
