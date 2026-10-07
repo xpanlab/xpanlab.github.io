@@ -3,3 +3,23 @@
 
 /.quarto/
 **/*.quarto_ipynb
+/images/panlab-qr.png
+/docs/images/panlab-qr.png
+
+# Unused graphics kept locally (including Quarto output copies).
+/assets/integration.svg
+/docs/assets/integration.svg
+/assets/neighborhood.svg
+/docs/assets/neighborhood.svg
+/assets/pathology.svg
+/docs/assets/pathology.svg
+/images/CT_LPI_miccai.png
+/docs/images/CT_LPI_miccai.png
+/images/compath_workflow.png
+/docs/images/compath_workflow.png
+/images/path_ct_st.png
+/docs/images/path_ct_st.png
+/images/path_ct_st2.png
+/docs/images/path_ct_st2.png
+/images/path_xenium_cvpr.png
+/docs/images/path_xenium_cvpr.png
