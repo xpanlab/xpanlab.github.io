@@ -28,7 +28,7 @@ We are especially interested in people who enjoy working across disciplinary bou
 
 All interested candidates should email **Xiaoxi at xiaoxi.pan@hci.utah.edu** with the following materials:
 
-- A brief description of your research interests and why you are interested in the Pan Lab
+- A cover letter to describe your research interests and why you are interested in our lab
 - Your CV with links to GitHub, Hugging Face, publications, if available
 
 Applicants are encouraged to highlight experience with Python, Linux, computer vision/image processing, computational pathology, spatial omics, and/or multi-omics analysis.
