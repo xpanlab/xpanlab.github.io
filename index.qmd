@@ -8,6 +8,8 @@ title: ""
 
 ### Xiaoxi Pan, Ph.D.
 
+<p class="name-pronunciation">Xiaoxi [shyow-shee]</p>
+
 <i class="bi bi-envelope" aria-hidden="true"></i> [xiaoxi.pan@hci.utah.edu](mailto:xiaoxi.pan@hci.utah.edu)
 <div class="social-links">
 <a href="https://github.com/xi11"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
@@ -26,10 +28,10 @@ title: ""
 
 I am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My [research program](research.qmd) develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.
 
-Prior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by [Dr. Yinyin Yuan](https://faculty.mdanderson.org/profiles/yinyin_yuan.html) at The University of Texas MD Anderson Cancer Center (2023 to 2026). My postdoc trainined was completed in Dr. Yuan’s lab at the [Institute of Cancer Research (ICR)](https://www.icr.ac.uk/), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at [Ecole Centrale Marseille](https://www.centrale-marseille.fr/), France (2016 to 2019).
+Prior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by [Dr. Yinyin Yuan](https://faculty.mdanderson.org/profiles/yinyin_yuan.html) at The University of Texas MD Anderson Cancer Center (2023 to 2026). I completed my postdoctoral training in Dr. Yuan’s lab at the [Institute of Cancer Research (ICR)](https://www.icr.ac.uk/), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at [Ecole Centrale Marseille](https://www.centrale-marseille.fr/), France (2016 to 2019).
 
 
-I am actively looking for talented students and postdocs as the founding members for Pan Lab! See how to [join the lab](join.qmd).
+I am actively looking for talented students and postdocs as founding members of Pan Lab! See how to [join the lab](join.qmd).
 
 ## News
 
@@ -37,7 +39,7 @@ I am actively looking for talented students and postdocs as the founding members
 
 - [**Sep 2026**]{.news-date} [One co-authored paper was accepted by *Cancer Research*. Congrats to Caner and the team!]{.news-text}
 - [**Sep 2026**]{.news-date} [Xiaoxi joined the U and started the Pan Lab.]{.news-text}
-- [**Sep 2026**]{.news-date} [Our paper on [AI-derived sTILs for pCR prediction](https://www.nature.com/articles/s41523-026-01040-w) was published at npj Breast Cancer. Congrats to the team!]{.news-text}
+- [**Sep 2026**]{.news-date} [Our paper on [AI-derived sTILs for pCR prediction](https://www.nature.com/articles/s41523-026-01040-w) was published in *npj Breast Cancer*. Congrats to the team!]{.news-text}
 - [**May 2026**]{.news-date} [One co-authored paper has been provisionally accepted by [MICCAI 2026](https://papers.miccai.org/miccai-2026/0694-Paper1327.html). Congrats to Yutong and Chengyue!]{.news-text}
 - [**Apr 2026**]{.news-date} [Xiaoxi gave an invited talk at the BCB Seminar Series.]{.news-text}
 

@@ -2,20 +2,20 @@
 title: "Research"
 ---
 
-We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer, primarily focusing on three themes: (1) AI model development for large-scale pathology image analysis, (2) Multi-modal integration, including radiology, pathology and omics data, and (3) pollutant’s effect on tumor microenvironment in lung cancer for never-smokers.
+We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer. Our research focuses on three complementary themes: **(1) AI model development for large-scale pathology image analysis, (2) multimodal integration of radiology, pathology, and omics data, and (3) the effects of inhaled pollutants on the tumor microenvironment and treatment response in lung cancer, particularly in never-smokers.**
 
 ## AI model development for large-scale pathology image analysis
 
-How can routine tissue images reveal meaningful differences in cancer? We develop interpretable image analysis methods to characterize cells, tissue architecture, and tumor heterogeneity, with an emphasis on biological understanding and clinical relevance.
+We develop computational pathology models for tissue segmentation, histologic pattern classification, and cell-level phenotyping, and apply them to large clinical cohorts. These models quantify tumor architecture, cellular composition, morphology, spatial organization, and microenvironmental heterogeneity, enabling studies of survival in lung cancer, treatment response in triple-negative breast cancer, and cancer progression in Barrett’s esophagus.
+![Computational pathology at scale.](images/compath_workflow_wide.png)
 
-![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](images/compath_workflow.png)
+## Multimodal integration across imaging and molecular data
 
-## Multi-modal integration, including radiology, pathology and omics data
+We integrate pathology with radiology, spatial transcriptomics, and other molecular data to connect imaging phenotypes with cellular and molecular states across spatial scales. By jointly modeling tissue morphology, radiologic features, gene expression, and spatial context, we aim to define clinically relevant tumor phenotypes and improve biomarker discovery, patient stratification, and outcome prediction.
+![Multimodal integration.](images/path_ct_st3.png)
 
-Cancer develops within a complex community of tumor, immune, and stromal cells. We investigate how their arrangement and interactions relate to disease progression and treatment response.
-![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](images/CT_LPI_miccai.png)
 
-![Conceptual workflow from tissue images through cell and tissue analysis to biological interpretation.](images/path_xenium_cvpr.png)
+## Pollutant-associated tumor microenvironments in lung cancer
 
-## Pollutant’s effect on tumor microenvironment in lung cancer for never-smokers
-
+We study how inhaled pollutants, including tissue-resident particulate matter (PM), reshape the tumor microenvironment in lung cancer, with a particular focus on never-smokers. By combining AI-based pollutant mapping with spatial transcriptomics and cellular-resolution analysis, we investigate pollutant-associated immune and stromal states, their relationship to tumor progression, and whether these microenvironmental changes influence response to systemic therapy.
+![Dissection of pollutant-associated tumor microenvironments.](images/pollutant.png)

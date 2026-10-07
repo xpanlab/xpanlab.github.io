@@ -2,17 +2,35 @@
 title: "Join Us"
 ---
 
-## Build with us
-
-We welcome expressions of interest from people excited about computational pathology, cancer biology, artificial intelligence, and spatial omics.
-
-Our work sits at the intersection of methods and biology. Experience in image analysis, machine learning, bioinformatics, or cancer research is relevant, along with curiosity and a willingness to learn across disciplines.
-
-## How to express interest
-
-Please prepare a brief description of your research interests, a CV, and links to relevant publications or projects. Explain how your interests connect with the lab’s research.
+We are building a collaborative and interdisciplinary team, and we are excited to hear from researchers and students interested in developing computational approaches to understand cancer.
 
 
-::: {.content-note}
-**Recruitment details to be confirmed:** specific openings, eligibility and application routes, start dates, and the lab’s University of Utah contact email. This page invites expressions of interest and does not yet list confirmed vacancies.
-:::
+## Research scientist
+
+We currently have **an opening for a Research Scientist** with a strong computational background. We are particularly interested in candidates with experience in:
+
+- Python programming and Linux/Unix environments
+- Image processing, computer vision, and deep learning
+- Computational pathology and digital pathology image analysis
+- Spatial transcriptomics, spatial proteomics, or other multi-omics data
+- Multimodal machine learning and image–omics integration
+- High-performance or GPU computing and reproducible computational workflows
+
+Experience in every area is **not required**. We particularly value strong computational fundamentals, rigorous problem-solving, scientific curiosity, and the ability to learn new methods independently.
+
+## Postdoctoral fellows and students
+
+We also welcome inquiries from prospective postdoctoral fellows and students whose interests align with the lab. Because our research is highly computational, applicants should have a quantitative or computational background. Prior experience in computational pathology or cancer research is welcome but not essential for candidates with strong computational foundations and an interest in learning the biology.
+
+We are especially interested in people who enjoy working across disciplinary boundaries, developing rigorous computational methods while engaging deeply with the biological and clinical questions that motivate them.
+
+## How to apply
+
+All interested candidates should email **Xiaoxi at xiaoxi.pan@hci.utah.edu** with the following materials:
+
+- A brief description of your research interests and why you are interested in the Pan Lab
+- Your CV with links to GitHub, Hugging Face, publications, if available
+
+Applicants are encouraged to highlight experience with Python, Linux, computer vision/image processing, computational pathology, spatial omics, and/or multi-omics analysis.
+
+**If our research interests align, we would be very happy to hear from you.**

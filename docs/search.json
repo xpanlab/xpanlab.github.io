@@ -4,70 +4,77 @@
     "href": "join.html",
     "title": "Join Us",
     "section": "",
-    "text": "We welcome expressions of interest from people excited about computational pathology, cancer biology, artificial intelligence, and spatial omics.\nOur work sits at the intersection of methods and biology. Experience in image analysis, machine learning, bioinformatics, or cancer research is relevant, along with curiosity and a willingness to learn across disciplines."
+    "text": "We are building a collaborative and interdisciplinary team, and we are excited to hear from researchers and students interested in developing computational approaches to understand cancer."
   },
   {
-    "objectID": "join.html#build-with-us",
-    "href": "join.html#build-with-us",
+    "objectID": "join.html#research-scientist",
+    "href": "join.html#research-scientist",
     "title": "Join Us",
-    "section": "",
-    "text": "We welcome expressions of interest from people excited about computational pathology, cancer biology, artificial intelligence, and spatial omics.\nOur work sits at the intersection of methods and biology. Experience in image analysis, machine learning, bioinformatics, or cancer research is relevant, along with curiosity and a willingness to learn across disciplines."
+    "section": "Research scientist",
+    "text": "Research scientist\nWe currently have an opening for a Research Scientist with a strong computational background. We are particularly interested in candidates with experience in:\n\nPython programming and Linux/Unix environments\nImage processing, computer vision, and deep learning\nComputational pathology and digital pathology image analysis\nSpatial transcriptomics, spatial proteomics, or other multi-omics data\nMultimodal machine learning and image–omics integration\nHigh-performance or GPU computing and reproducible computational workflows\n\nExperience in every area is not required. We particularly value strong computational fundamentals, rigorous problem-solving, scientific curiosity, and the ability to learn new methods independently."
   },
   {
-    "objectID": "join.html#how-to-express-interest",
-    "href": "join.html#how-to-express-interest",
+    "objectID": "join.html#postdoctoral-fellows-and-students",
+    "href": "join.html#postdoctoral-fellows-and-students",
     "title": "Join Us",
-    "section": "How to express interest",
-    "text": "How to express interest\nPlease prepare a brief description of your research interests, a CV, and links to relevant publications or projects. Explain how your interests connect with the lab’s research.\n\nRecruitment details to be confirmed: specific openings, eligibility and application routes, start dates, and the lab’s University of Utah contact email. This page invites expressions of interest and does not yet list confirmed vacancies."
+    "section": "Postdoctoral fellows and students",
+    "text": "Postdoctoral fellows and students\nWe also welcome inquiries from prospective postdoctoral fellows and students whose interests align with the lab. Because our research is highly computational, applicants should have a quantitative or computational background. Prior experience in computational pathology or cancer research is welcome but not essential for candidates with strong computational foundations and an interest in learning the biology.\nWe are especially interested in people who enjoy working across disciplinary boundaries, developing rigorous computational methods while engaging deeply with the biological and clinical questions that motivate them."
+  },
+  {
+    "objectID": "join.html#how-to-apply",
+    "href": "join.html#how-to-apply",
+    "title": "Join Us",
+    "section": "How to apply",
+    "text": "How to apply\nAll interested candidates should email Xiaoxi at xiaoxi.pan@hci.utah.edu with the following materials:\n\nA brief description of your research interests and why you are interested in the Pan Lab\nYour CV with links to GitHub, Hugging Face, publications, if available\n\nApplicants are encouraged to highlight experience with Python, Linux, computer vision/image processing, computational pathology, spatial omics, and/or multi-omics analysis.\nIf our research interests align, we would be very happy to hear from you."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer, primarily focusing on three themes: (1) AI model development for large-scale pathology image analysis, (2) Multi-modal integration, including radiology, pathology and omics data, and (3) pollutant’s effect on tumor microenvironment in lung cancer for never-smokers."
+    "text": "We connect tissue structure, cellular neighborhoods, and molecular measurements to understand cancer. Our research focuses on three complementary themes: (1) AI model development for large-scale pathology image analysis, (2) multimodal integration of radiology, pathology, and omics data, and (3) the effects of inhaled pollutants on the tumor microenvironment and treatment response in lung cancer, particularly in never-smokers."
   },
   {
     "objectID": "research.html#ai-model-development-for-large-scale-pathology-image-analysis",
     "href": "research.html#ai-model-development-for-large-scale-pathology-image-analysis",
     "title": "Research",
     "section": "AI model development for large-scale pathology image analysis",
-    "text": "AI model development for large-scale pathology image analysis\nHow can routine tissue images reveal meaningful differences in cancer? We develop interpretable image analysis methods to characterize cells, tissue architecture, and tumor heterogeneity, with an emphasis on biological understanding and clinical relevance.\n\n\n\nConceptual workflow from tissue images through cell and tissue analysis to biological interpretation."
+    "text": "AI model development for large-scale pathology image analysis\nWe develop computational pathology models for tissue segmentation, histologic pattern classification, and cell-level phenotyping, and apply them to large clinical cohorts. These models quantify tumor architecture, cellular composition, morphology, spatial organization, and microenvironmental heterogeneity, enabling studies of survival in lung cancer, treatment response in triple-negative breast cancer, and cancer progression in Barrett’s esophagus."
   },
   {
-    "objectID": "research.html#multi-modal-integration-including-radiology-pathology-and-omics-data",
-    "href": "research.html#multi-modal-integration-including-radiology-pathology-and-omics-data",
+    "objectID": "research.html#multimodal-integration-across-imaging-and-molecular-data",
+    "href": "research.html#multimodal-integration-across-imaging-and-molecular-data",
     "title": "Research",
-    "section": "Multi-modal integration, including radiology, pathology and omics data",
-    "text": "Multi-modal integration, including radiology, pathology and omics data\nCancer develops within a complex community of tumor, immune, and stromal cells. We investigate how their arrangement and interactions relate to disease progression and treatment response. \n\n\n\nConceptual workflow from tissue images through cell and tissue analysis to biological interpretation."
+    "section": "Multimodal integration across imaging and molecular data",
+    "text": "Multimodal integration across imaging and molecular data\nWe integrate pathology with radiology, spatial transcriptomics, and other molecular data to connect imaging phenotypes with cellular and molecular states across spatial scales. By jointly modeling tissue morphology, radiologic features, gene expression, and spatial context, we aim to define clinically relevant tumor phenotypes and improve biomarker discovery, patient stratification, and outcome prediction."
   },
   {
-    "objectID": "research.html#pollutants-effect-on-tumor-microenvironment-in-lung-cancer-for-never-smokers",
-    "href": "research.html#pollutants-effect-on-tumor-microenvironment-in-lung-cancer-for-never-smokers",
+    "objectID": "research.html#pollutant-associated-tumor-microenvironments-in-lung-cancer",
+    "href": "research.html#pollutant-associated-tumor-microenvironments-in-lung-cancer",
     "title": "Research",
-    "section": "Pollutant’s effect on tumor microenvironment in lung cancer for never-smokers",
-    "text": "Pollutant’s effect on tumor microenvironment in lung cancer for never-smokers"
+    "section": "Pollutant-associated tumor microenvironments in lung cancer",
+    "text": "Pollutant-associated tumor microenvironments in lung cancer\nWe study how inhaled pollutants, including tissue-resident particulate matter (PM), reshape the tumor microenvironment in lung cancer, with a particular focus on never-smokers. By combining AI-based pollutant mapping with spatial transcriptomics and cellular-resolution analysis, we investigate pollutant-associated immune and stromal states, their relationship to tumor progression, and whether these microenvironmental changes influence response to systemic therapy."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Pan Lab",
     "section": "",
-    "text": "xiaoxi.pan@hci.utah.edu\n\n GitHub  Google Scholar  LinkedIn\n\nHuntsman Cancer Institute\nDepartment of Oncological Sciences\nUniversity of Utah\n\n\n\n\n\nI am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My research program develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.\nPrior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by Dr. Yinyin Yuan at The University of Texas MD Anderson Cancer Center (2023 to 2026). My postdoc trainined was completed in Dr. Yuan’s lab at the Institute of Cancer Research (ICR), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at Ecole Centrale Marseille, France (2016 to 2019).\nI am actively looking for talented students and postdocs as the founding members for Pan Lab! See how to join the lab.\n\n\n\n\n\nSep 2026 One co-authored paper was accepted by Cancer Research. Congrats to Caner and the team!\nSep 2026 Xiaoxi joined the U and started the Pan Lab.\nSep 2026 Our paper on AI-derived sTILs for pCR prediction was published at npj Breast Cancer. Congrats to the team!\nMay 2026 One co-authored paper has been provisionally accepted by MICCAI 2026. Congrats to Yutong and Chengyue!\nApr 2026 Xiaoxi gave an invited talk at the BCB Seminar Series."
+    "text": "Xiaoxi [shyow-shee]\n\n xiaoxi.pan@hci.utah.edu\n\n GitHub  Google Scholar  LinkedIn\n\nHuntsman Cancer Institute\nDepartment of Oncological Sciences\nUniversity of Utah\n\n\n\n\n\nI am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My research program develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.\nPrior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by Dr. Yinyin Yuan at The University of Texas MD Anderson Cancer Center (2023 to 2026). I completed my postdoctoral training in Dr. Yuan’s lab at the Institute of Cancer Research (ICR), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at Ecole Centrale Marseille, France (2016 to 2019).\nI am actively looking for talented students and postdocs as founding members of Pan Lab! See how to join the lab.\n\n\n\n\n\nSep 2026 One co-authored paper was accepted by Cancer Research. Congrats to Caner and the team!\nSep 2026 Xiaoxi joined the U and started the Pan Lab.\nSep 2026 Our paper on AI-derived sTILs for pCR prediction was published in npj Breast Cancer. Congrats to the team!\nMay 2026 One co-authored paper has been provisionally accepted by MICCAI 2026. Congrats to Yutong and Chengyue!\nApr 2026 Xiaoxi gave an invited talk at the BCB Seminar Series."
   },
   {
     "objectID": "index.html#bio",
     "href": "index.html#bio",
     "title": "Pan Lab",
     "section": "",
-    "text": "I am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My research program develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.\nPrior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by Dr. Yinyin Yuan at The University of Texas MD Anderson Cancer Center (2023 to 2026). My postdoc trainined was completed in Dr. Yuan’s lab at the Institute of Cancer Research (ICR), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at Ecole Centrale Marseille, France (2016 to 2019).\nI am actively looking for talented students and postdocs as the founding members for Pan Lab! See how to join the lab."
+    "text": "I am an Assistant Professor in the Department of Oncological Sciences and Huntsman Cancer Institute at the University of Utah. My research program develops computational approaches using artificial intelligence (AI) that transform routinely collected pathology specimens into quantitative representations of tumor biology and integrates these features with omics and clinical data to answer clinically and biologically meaningful questions.\nPrior to joining the U, I was working as an Instructor and then a principal data scientist in the lab led by Dr. Yinyin Yuan at The University of Texas MD Anderson Cancer Center (2023 to 2026). I completed my postdoctoral training in Dr. Yuan’s lab at the Institute of Cancer Research (ICR), UK (2020 to 2023), and I received my Ph.D. in Optics, Photonics and Image Processing at Ecole Centrale Marseille, France (2016 to 2019).\nI am actively looking for talented students and postdocs as founding members of Pan Lab! See how to join the lab."
   },
   {
     "objectID": "index.html#news",
     "href": "index.html#news",
     "title": "Pan Lab",
     "section": "",
-    "text": "Sep 2026 One co-authored paper was accepted by Cancer Research. Congrats to Caner and the team!\nSep 2026 Xiaoxi joined the U and started the Pan Lab.\nSep 2026 Our paper on AI-derived sTILs for pCR prediction was published at npj Breast Cancer. Congrats to the team!\nMay 2026 One co-authored paper has been provisionally accepted by MICCAI 2026. Congrats to Yutong and Chengyue!\nApr 2026 Xiaoxi gave an invited talk at the BCB Seminar Series."
+    "text": "Sep 2026 One co-authored paper was accepted by Cancer Research. Congrats to Caner and the team!\nSep 2026 Xiaoxi joined the U and started the Pan Lab.\nSep 2026 Our paper on AI-derived sTILs for pCR prediction was published in npj Breast Cancer. Congrats to the team!\nMay 2026 One co-authored paper has been provisionally accepted by MICCAI 2026. Congrats to Yutong and Chengyue!\nApr 2026 Xiaoxi gave an invited talk at the BCB Seminar Series."
   },
   {
     "objectID": "publications.html",

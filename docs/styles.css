@@ -88,6 +88,7 @@ p { margin-bottom: 1.1rem; }
 .profile-photo { width: 180px; height: auto; border: 1px solid var(--line); }
 .profile p { font-size: .94rem; color: var(--muted); }
 .profile h3 { margin-top: 1.2rem; }
+.profile p.name-pronunciation { font-size: .8rem; font-weight: 400; margin-top: -.35rem; margin-bottom: .65rem; }
 .social-links { display: flex; flex-wrap: wrap; gap: .5rem .8rem; margin: -.35rem 0 0; font-size: 10px; }
 .social-links a { display: inline-flex; align-items: center; gap: .35rem; white-space: nowrap; }
 .social-links .bi { font-size: .75rem; }
@@ -101,7 +102,11 @@ figcaption { color: var(--muted); font-size: .86rem; text-align: left; }
 .publication { margin: 1.8rem 0; }
 .publication p { margin: .25rem 0; }
 .publication .authors, .publication .venue { color: var(--muted); font-size: .94rem; }
-.nav-footer { color: var(--muted); font-size: .85rem; padding: 1.3rem; }
+footer.footer { margin-top: 0; padding-top: 0; }
+.nav-footer { color: var(--muted); font-size: .85rem; min-height: 0; padding: 0 1.3rem .4rem; }
+.nav-footer-center, .nav-footer-center p { margin-top: 0; margin-bottom: 0; }
+.nav-footer-center { padding-top: 0; }
+.nav-footer-center p { line-height: 1.2; }
 /* Keep long news archives scrollable without extending the whole page. */
 .news-panel { max-height: 280px; overflow-y: auto; padding-right: .75rem; scrollbar-width: thin; }
 .news-panel li { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 1rem; margin-bottom: .65rem; }
