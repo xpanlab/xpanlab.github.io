@@ -37,6 +37,7 @@ I am actively looking for talented students and postdocs as founding members of 
 
 ::: {.news-panel tabindex="0" role="region" aria-label="Lab news"}
 
+- [**Oct 2026**]{.news-date} [Xiaoxi was recognized as **Top Reviewer** by NeurIPS 2026.]{.news-text}
 - [**Sep 2026**]{.news-date} [One co-authored paper was accepted by *Cancer Research*. Congrats to Caner and the team!]{.news-text}
 - [**Sep 2026**]{.news-date} [Xiaoxi joined the U and started the Pan Lab.]{.news-text}
 - [**Sep 2026**]{.news-date} [Our paper on [AI-derived sTILs for pCR prediction](https://www.nature.com/articles/s41523-026-01040-w) was published in *npj Breast Cancer*. Congrats to the team!]{.news-text}
