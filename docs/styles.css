@@ -1,5 +1,5 @@
 /* System typography and quiet, content-first academic layout. */
-:root { --ink: #000; --muted: #000; --line: #e5e5e5; --link: #1765a7; }
+:root { --ink: #000; --muted: #000; --line: #e5e5e5; --link: #1765a7; --banner-orange: #e97800; --banner-amber: #fff4df; }
 body { background: #fff; color: var(--ink); font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; font-size: 16px; line-height: 1.65; }
 #quarto-content { width: 100%; }
 /* Span Quarto's outer grid so its default article width does not constrain us. */
@@ -94,6 +94,31 @@ p { margin-bottom: 1.1rem; }
 .social-links .bi { font-size: .75rem; }
 .profile .social-links + p { margin-top: 0; }
 
+.application-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 1.25rem;
+}
+.application-option {
+  padding: 1.35rem 1.5rem 1.1rem;
+  border: 1px solid #f2c27d;
+  border-top: 4px solid var(--banner-orange);
+  background: var(--banner-amber);
+}
+.application-option h3 { margin-top: 0; margin-bottom: .7rem; }
+.application-option h3, .application-option a { color: #c65300; }
+.application-option p:last-child, .application-option ul:last-child { margin-bottom: 0; }
+.application-option ul { padding-left: 1.25rem; }
+.application-note {
+  margin: 1.25rem 0 1.5rem;
+  padding: .85rem 1.1rem;
+  border-left: 3px solid var(--banner-orange);
+  background: #fffaf1;
+  color: var(--muted);
+}
+.application-note p { margin: 0; }
+
 .research-tagline { color: var(--muted); font-size: .95rem; }
 .content-note { color: var(--muted); font-size: .92rem; margin: 1.8rem 0; }
 .quarto-figure { margin: 1.8rem 0 2.5rem; text-align: left; }
@@ -119,6 +144,7 @@ footer.footer { margin-top: 0; padding-top: 0; }
  .news-panel li { grid-template-columns: 5rem minmax(0, 1fr); gap: .6rem; }
  #quarto-content > main.content { padding: 1.8rem 1.2rem 2rem; }
  .intro-grid { grid-template-columns: 1fr; gap: 1.8rem; }
+ .application-options { grid-template-columns: 1fr; }
  .profile-photo { width: 150px; }
  .navbar { padding: 1rem 1.2rem 0; }
  .navbar .navbar-brand-container { width: 100%; margin: .75rem 0 0 !important; }

@@ -26,11 +26,26 @@ We are especially interested in people who enjoy working across disciplinary bou
 
 ## How to apply
 
-All interested candidates should email **Xiaoxi at xiaoxi.pan@hci.utah.edu** with the following materials:
+All interested candidates are welcome to apply through **either** of the routes below. Both options are actively monitored, and applications are reviewed on a rolling basis until the position is filled.
 
-- A cover letter to describe your research interests and why you are interested in our lab
-- Your CV with links to GitHub, Hugging Face, publications, if available
+::: {.application-options}
+::: {.application-option}
+### Email Xiaoxi
 
-Applicants are encouraged to highlight experience with Python, Linux, computer vision/image processing, computational pathology, spatial omics, and/or multi-omics analysis.
+Email [xiaoxi.pan@hci.utah.edu](mailto:xiaoxi.pan@hci.utah.edu) with:
+
+- A cover letter describing your research interests and why you are interested in our lab
+- Your CV, including links to GitHub, Hugging Face, and publications, if available
+
+:::
+
+::: {.application-option}
+### Apply through the job portal
+
+For **Research Scientist** positions, apply through the [University of Utah job portal](https://employment.utah.edu/salt-lake-city-ut/research-scientist/EA921F2234BD440EB127FB0E565B81CD/job/).
+
+:::
+:::
+
 
 **If our research interests align, we would be very happy to hear from you.**
