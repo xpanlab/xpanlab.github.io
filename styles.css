@@ -63,10 +63,10 @@ body { padding-top: 0 !important; overflow-x: clip; }
 .introduction > section:first-child > h2 { margin-top: 0; }
 .navbar-nav { gap: 1rem; }
 .navbar .nav-link, .navbar .nav-link:hover { color: #fff; }
-.navbar .nav-link.active { color: #a9d7ff; text-decoration: underline; text-underline-offset: .45em; }
+.navbar .nav-link.active { color: #a9d7ff; text-decoration: none; }
 .navbar a:focus-visible, .navbar button:focus-visible { outline-color: #fff; }
 a { color: var(--link); text-decoration: none; }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: none; }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
 h1, h2, h3 { color: var(--ink); font-weight: 600; line-height: 1.3; }
 h1 { font-size: 2rem; margin-bottom: 1rem; }
@@ -173,13 +173,9 @@ h1, h2, h3 { font-weight: 600; letter-spacing: -.015em; }
 h1 { margin-bottom: 1.5rem; }
 h2 { margin-bottom: 1rem; }
 p { margin-bottom: 1.2rem; }
-main.content a:not(.nav-link):not(.social-links a) {
-  text-decoration: underline;
-  text-decoration-color: #a9bdcc;
-  text-decoration-thickness: 1px;
-  text-underline-offset: .18em;
+main.content a, main.content a:hover, main.content a:focus {
+  text-decoration: none;
 }
-main.content a:hover { text-decoration-color: currentColor; }
 .profile-photo { border-color: var(--line); }
 .profile h3 { color: var(--ink); }
 .social-links { font-size: .75rem; gap: .5rem .85rem; }
