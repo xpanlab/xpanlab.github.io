@@ -159,3 +159,65 @@ footer.footer { margin-top: 0; padding-top: 0; }
  .navbar .nav-link { padding: .6rem 0; }
  h1 { font-size: 1.8rem; }
 }
+
+
+/* Restrained academic refinements. Banner layout remains as originally defined. */
+:root {
+  --ink: #24292e;
+  --muted: #505860;
+  --line: #dfe3e6;
+  --link: #175b8d;
+}
+body { line-height: 1.75; }
+h1, h2, h3 { font-weight: 600; letter-spacing: -.015em; }
+h1 { margin-bottom: 1.5rem; }
+h2 { margin-bottom: 1rem; }
+p { margin-bottom: 1.2rem; }
+main.content a:not(.nav-link):not(.social-links a) {
+  text-decoration: underline;
+  text-decoration-color: #a9bdcc;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .18em;
+}
+main.content a:hover { text-decoration-color: currentColor; }
+.profile-photo { border-color: var(--line); }
+.profile h3 { color: var(--ink); }
+.social-links { font-size: .75rem; gap: .5rem .85rem; }
+.profile p.name-pronunciation { color: var(--muted); }
+.publication { padding-bottom: 1.4rem; border-bottom: 1px solid var(--line); }
+.publication > strong { line-height: 1.55; }
+.publication .authors { margin-top: .55rem; line-height: 1.7; }
+.news-panel li { padding-bottom: .7rem; border-bottom: 1px solid #edf0f2; }
+.news-date { color: #475969; font-size: .85rem; }
+.application-option {
+  border: 1px solid var(--line);
+  border-top: 3px solid #75899a;
+  background: #f7f8f9;
+}
+.application-option h3 { color: var(--ink); }
+.application-option a { color: var(--link); }
+.application-note { border-left-color: #75899a; background: #f7f8f9; }
+figcaption { line-height: 1.6; }
+@media (max-width: 767px) {
+  .social-links { font-size: .75rem; }
+  .publication { padding-bottom: 1.1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Compact the taller research diagrams without changing the overview figure. */
+.quarto-figure img[src$="path_ct_st3.png"] {
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+}
+.quarto-figure img[src$="pollutant.png"] {
+  width: 100%;
+  max-width: 620px;
+  height: auto;
+}
