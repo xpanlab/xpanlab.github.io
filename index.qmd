@@ -37,7 +37,7 @@ I am actively looking for talented students and postdocs as founding members of 
 
 ::: {.news-panel tabindex="0" role="region" aria-label="Lab news"}
 
-- [**Nov 2026**]{.news-date} [Xiaoxi got accepted by the Vice President’s Clinical and Translational (VPCAT) Research Scholars Program, a two-year faculty mentoring program that supports early-stage faculty members engaged in clinical and translational research in transitioning to accomplished principal investigators]{.news-text}
+- [**Nov 2026**]{.news-date} [Xiaoxi got accepted by the Vice President’s Clinical and Translational (VPCAT) Research Scholars Program.]{.news-text}
 - [**Oct 2026**]{.news-date} [Our paper was accepted in principle by *Nature Communications*. Congrats to Yasin and the team!]{.news-text}
 - [**Oct 2026**]{.news-date} [Xiaoxi was recognized as **Top Reviewer** by NeurIPS 2026.]{.news-text}
 - [**Sep 2026**]{.news-date} [One co-authored paper was accepted by *Cancer Research*. Congrats to Caner and the team!]{.news-text}
